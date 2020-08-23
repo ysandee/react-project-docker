@@ -22,7 +22,7 @@ deploy:
     - provider: elasticbeanstalk
       region: us-west-1 # Specify your region
       app: "react-project-docker" # Copy it from Elastic Beanstalk dashboard
-      env: "ReactProjectDocker-env" # Copy it from Elastic Beanstalk dashboard
+      env: "ReactProjectDocker-env-new" # Copy it from Elastic Beanstalk dashboard
       bucket_name: "elasticbeanstalk-us-west-1-333442415632"
       bucket_path: "docker"
       access_key_id: $AWS_ACCESS_KEY
